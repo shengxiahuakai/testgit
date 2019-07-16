@@ -12,8 +12,7 @@
 </template>
 
 <script>
-import 'swiper/dist/css/swiper.css'////这里注意具体看使用的版本是否需要引入样式，以及具体位置。
-import { swiper, swiperSlide } from 'vue-awesome-swiper'
+import { swiper, swiperSlide } from "vue-awesome-swiper"
 export default {
     components: {
         swiper,
@@ -48,5 +47,5 @@ export default {
 </script>
 
 <style lang="css">
-  @import "~swiper/dist/css/swiper.css";
+  @import "swiper/dist/css/swiper.css";
 </style>
